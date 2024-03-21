@@ -10,7 +10,7 @@ body{
 
 
 .box{
-    display:inline-block;
+    display:flex;
     background: gray;
 
     margin-left: 1rem;
