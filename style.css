@@ -1,24 +1,25 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     background-color: #121212;
     color: #ffffff;
 }
 
-
-.box{
-    display:flex;
+.box {
+    display: block;
     flex-direction: column;
     background: gray;
+
+    border: solid;
+    border-width: 1rem;
 
     margin-left: 1rem;
     padding-left: 1rem;
 
     margin-right: 1rem;
-
     padding-right: 1rem;
 
     margin-top: 1rem;
@@ -26,16 +27,34 @@ body{
 
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    
 }
 
-.box>p{
+.box>h3{
+    
     border: solid;
+    border-width: 1rem;
+
     margin-left: 1rem;
     padding-left: 1rem;
 
     margin-right: 1rem;
+    padding-right: 1rem;
 
+    margin-top: 1rem;
+    padding-top: 1rem;
+
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.box>p {
+    border: solid;
+    border-width: 1rem;
+
+    margin-left: 1rem;
+    padding-left: 1rem;
+
+    margin-right: 1rem;
     padding-right: 1rem;
 
     margin-top: 1rem;
