@@ -1,5 +1,35 @@
-@import url('./reset.css');
+@import url('reset.css');
 
 
 
 
+
+/* Container styling */
+.container {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Box styling */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#box2 {
+    padding: 20px; /* Adds space around the content */
+}
+
+#box3 {
+    border: 5px solid #333; /* Adds border around padding/content */
+}
+
+#box4 {
+    margin: 50px; /* Adds space outside the border */
+}
