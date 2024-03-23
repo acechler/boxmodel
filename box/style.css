@@ -1,13 +1,26 @@
 @import url('reset.css');
 
 html {
-    background-color: black;
-    color: white;
+    background-color: #282c34; /* Darker shade for the background */
+    color: #abb2bf; /* Light grey for text */
 }
 
-
-flex-container {
+.flex-container {
     display: flex;
-    
-    background: gray;
+    justify-content: space-around;
+    border: solid 2px #61dafb; /* Light blue border */
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.flex-item {
+    background-color: #61dafb; /* Light blue background */
+    color: #282c34; /* Dark text for contrast */
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px; /* Rounded corners for flex items */
 }
