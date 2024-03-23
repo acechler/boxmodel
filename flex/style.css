@@ -11,6 +11,8 @@ body {
 .flex-container {
 	display: flex; /* flex is the default property */
     flex-flow: row nowrap; /* row and nowrap are default properties */
+    justify-content: flex-start; /* flex-start is the default property */
+    align-items: stretch; /* stretch is the default property */
 	border: solid 4px white;
 }
 
