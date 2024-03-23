@@ -1,6 +1,5 @@
 @import url('reset.css');
 
-
 html,
 body {
 	padding: 0;
@@ -10,12 +9,9 @@ body {
 }
 
 .flex-container {
-	display: flex; /*flex is the default property*/
-    /* row is the default property*/
-    /* nowrap is the default property*/
-    flex-flow: row nowrap;
+	display: flex; /* flex is the default property */
+    flex-flow: row nowrap; /* row and nowrap are default properties */
 	border: solid 4px white;
-
 }
 
 .flex-item {
@@ -24,9 +20,13 @@ body {
 	font-size: 1.2em;
 	padding: 1em;
 	text-align: center;
+    flex: 0 0 auto; /* 0 0 auto are default properties */
+    width: auto;
+    height: auto;
 }
 
 .flex-item:first-child {
+    /* THE ORDER IN THE HTML DOCUMENT ARE NOT MODIFIED USING ORDER PROPERTY*/
     order: 1; /* Set the index for items in flex-container array */
     background-color: #A62E5C;
 }
