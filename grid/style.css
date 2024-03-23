@@ -1,38 +1,8 @@
 @import url('reset.css');
 
 
-body{
+body {
     background-color: black;
     color: white;
 }
 
-.grid-container {
-	border: solid 4px #000;
-    display: inline-grid;
-    grid-template-columns: 6em 6em 6em 6em; /*Adds four columns to the grid*/
-    grid-template-rows: 6em 6em;
-    gap: 1em;
-    row-gap: 1em;
-    column-gap: 1.5em;
-}
-
-.grid-item {
-    background-color: #A62E5C;
-	color: #fff;
-
-    grid-column-start: 1;
-    grid-column-end: 3;
-
-    box-sizing: border-box;
-	font-size: 1.2em;
-	padding: 1em;
-    overflow: hidden;
-	text-align: center;
-}
-
-
-
-.grid-item strong {
-	display: block;
-	font-size: 130%;  
-}	
