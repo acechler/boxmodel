@@ -13,6 +13,8 @@ body {
     flex-flow: row nowrap; /* row and nowrap are default properties */
     justify-content: flex-start; /* flex-start is the default property */
     align-items: stretch; /* stretch is the default property */
+    align-content: flex-start; /* flex-start is the default property */
+    gap: 0em; /* 0 is the default property*/
 	border: solid 4px white;
 }
 
