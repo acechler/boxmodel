@@ -1,8 +1,15 @@
 @import url('reset.css');
 
 
+body {
+    background-color: black;
+    color: white;
+}
 
-.flex-container{
-    display: flex;
-    border: solid 4px black'
+
+.flex-container {
+    display: inline-flex;
+    border: solid 1px white;
+    background-color: gray;
+
 }
