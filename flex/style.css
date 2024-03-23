@@ -3,5 +3,6 @@
 
 
 .flex-container{
-    display:flex;
+    display: flex;
+    border: solid 4px black'
 }
