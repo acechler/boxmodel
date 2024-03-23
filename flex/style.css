@@ -11,7 +11,7 @@ body {
 
 .flex-container {
 	display: flex; /*flex is the default property*/
-    /*row is the default property*/
+    /* row is the default property*/
     /* nowrap is the default property*/
     flex-flow: row nowrap;
 	border: solid 4px white;
@@ -27,15 +27,28 @@ body {
 }
 
 .flex-item:first-child {
-	background-color: #A62E5C;
+    order: 1; /* Set the index for items in flex-container array */
+    background-color: #A62E5C;
 }
 
 .flex-item:nth-child(2) {
+    order: 2;
 	background-color: #9BC850;
 }
 
 .flex-item:nth-child(3) {
+    order: 3;
 	background-color: #675BA7;
+}
+
+.flex-item:nth-child(4){
+    order: 4;
+    background-color: orangered;
+}
+
+.flex-item:nth-child(5){
+    order: 5;
+    background-color: red;
 }
 
 .flex-item strong {
