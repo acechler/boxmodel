@@ -10,12 +10,14 @@ body {
 }
 
 .flex-container {
-	display: inline-flex;
-	flex-direction: column-reverse;
+	display: flex; /*flex is the default property*/
+	flex-direction: row; /*row is the default property*/
+    
 	border: solid 4px #000;
 }
 
 .flex-item {
+    background-color: gray;
 	color: #fff;
 	font-size: 1.2em;
 	padding: 1em;
